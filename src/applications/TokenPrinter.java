@@ -10,6 +10,6 @@ import java.util.List;
 public class TokenPrinter {
     public static void main(String args[]) {
         LexicalAnalysis lexer = new LexicalAnalysis(CharStreams.fromString("a = 9 + 10."));
-
+        // Finish token printer.
     }
 }
